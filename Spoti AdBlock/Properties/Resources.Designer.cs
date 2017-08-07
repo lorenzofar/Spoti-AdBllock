@@ -61,6 +61,15 @@ namespace Spoti_AdBlock.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to SpotiAdBlock 1.0.
+        /// </summary>
+        internal static string about {
+            get {
+                return ResourceManager.GetString("about", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to The app is ready.
         /// </summary>
         internal static string connectionBody {
@@ -93,6 +102,16 @@ namespace Spoti_AdBlock.Properties {
         internal static System.Drawing.Icon icon {
             get {
                 object obj = ResourceManager.GetObject("icon", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        /// </summary>
+        internal static System.Drawing.Icon offline {
+            get {
+                object obj = ResourceManager.GetObject("offline", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }

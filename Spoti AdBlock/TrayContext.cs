@@ -15,10 +15,11 @@ namespace Spoti_AdBlock
             {
                 Icon = Resources.icon,
                 ContextMenu = new ContextMenu(new MenuItem[] {
-                new MenuItem(Resources.startupMenuItem, ToggleStartup){Checked = StartupHelper.StartupEnabled()},
-                new MenuItem(Resources.exitMenuItem, Exit)
-            }),
-                Visible = true
+                    new MenuItem(Resources.startupMenuItem, ToggleStartup){Checked = StartupHelper.StartupEnabled()},
+                    new MenuItem(Resources.exitMenuItem, Exit)
+                }),
+                Visible = true,
+                Text = Resources.about
             };
         }
 

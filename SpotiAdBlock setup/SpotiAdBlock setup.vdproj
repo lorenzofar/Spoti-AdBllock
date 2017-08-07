@@ -39,12 +39,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_DAA3E04FE9824EF2A519AA617416BBC8"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_FE70E04980FB1FC29F71F81F639FA3DD"
         "OwnerKey" = "8:_8CF460C636984FB9A44AF1D4B797D6AB"
         "MsmSig" = "8:_UNDEFINED"
@@ -53,12 +47,6 @@
         {
         "MsmKey" = "8:_FE70E04980FB1FC29F71F81F639FA3DD"
         "OwnerKey" = "8:_4802F33012B4ECE65683DEA57A02631A"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_8B0C33CF2A2ABA0F4E64D66DB4D123B2"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -79,6 +67,12 @@
         "OwnerKey" = "8:_FE70E04980FB1FC29F71F81F639FA3DD"
         "MsmSig" = "8:_UNDEFINED"
         }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_8B0C33CF2A2ABA0F4E64D66DB4D123B2"
+        "MsmSig" = "8:_UNDEFINED"
+        }
     }
     "Configurations"
     {
@@ -97,6 +91,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -113,6 +115,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -202,26 +212,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_DAA3E04FE9824EF2A519AA617416BBC8"
-            {
-            "SourcePath" = "8:..\\Spoti AdBlock\\icon.ico"
-            "TargetName" = "8:icon.ico"
-            "Tag" = "8:"
-            "Folder" = "8:_3FE5009919284CF7BE2B793E655CB457"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_FE70E04980FB1FC29F71F81F639FA3DD"
@@ -443,7 +433,7 @@
             "Target" = "8:_8CF460C636984FB9A44AF1D4B797D6AB"
             "Folder" = "8:_AF1CE9E06C6545808FDCED6EB697A710"
             "WorkingFolder" = "8:_3FE5009919284CF7BE2B793E655CB457"
-            "Icon" = "8:_DAA3E04FE9824EF2A519AA617416BBC8"
+            "Icon" = "8:"
             "Feature" = "8:"
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_B399377F05D74246B2347E8C500AE77F"
@@ -457,7 +447,7 @@
             "Target" = "8:_8CF460C636984FB9A44AF1D4B797D6AB"
             "Folder" = "8:_40852FB9241740F189210F66A1EF198F"
             "WorkingFolder" = "8:_3FE5009919284CF7BE2B793E655CB457"
-            "Icon" = "8:_DAA3E04FE9824EF2A519AA617416BBC8"
+            "Icon" = "8:"
             "Feature" = "8:"
             }
         }
