@@ -18,9 +18,10 @@ namespace Spoti_AdBlock
         [STAThread]
         static void Main()
         {
-            Initialize();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            TrayContext.InitializeIcon();
+            Initialize();
             Application.Run(new TrayContext());
         }
 
@@ -33,6 +34,7 @@ namespace Spoti_AdBlock
             }
             catch
             {
+                TrayContext.ToggleIconState(TrayContext.IconState.Offline);
                 bool retry = true;
                 while (retry)
                 {
@@ -46,10 +48,10 @@ namespace Spoti_AdBlock
                         int wait = r.Next(1000, 10000);
                         System.Diagnostics.Debug.WriteLine($"Retrying in {wait / 1000} seconds");
                         await Task.Delay(wait);
-                        retry = true;
                     }
                 }
             }
+            TrayContext.ToggleIconState(TrayContext.IconState.Online);
             ShowBalloon(new NotificationData
             {
                 title = Resources.connectionTitle,
