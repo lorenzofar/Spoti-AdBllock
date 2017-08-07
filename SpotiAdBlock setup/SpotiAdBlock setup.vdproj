@@ -15,14 +15,14 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_06B14ABF408F48C6B6C44F1824540B56"
-        "OwnerKey" = "8:_UNDEFINED"
+        "MsmKey" = "8:_4802F33012B4ECE65683DEA57A02631A"
+        "OwnerKey" = "8:_8CF460C636984FB9A44AF1D4B797D6AB"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_4802F33012B4ECE65683DEA57A02631A"
-        "OwnerKey" = "8:_8CF460C636984FB9A44AF1D4B797D6AB"
+        "MsmKey" = "8:_72D83E230B4E4D918BA6879A3823C469"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -128,6 +128,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
             }
         }
     }
@@ -158,26 +166,6 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_06B14ABF408F48C6B6C44F1824540B56"
-            {
-            "SourcePath" = "8:..\\Spoti AdBlock\\icon.ico"
-            "TargetName" = "8:icon.ico"
-            "Tag" = "8:"
-            "Folder" = "8:_3FE5009919284CF7BE2B793E655CB457"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_4802F33012B4ECE65683DEA57A02631A"
             {
             "AssemblyRegister" = "3:1"
@@ -207,6 +195,26 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_72D83E230B4E4D918BA6879A3823C469"
+            {
+            "SourcePath" = "8:..\\Spoti AdBlock\\icon.ico"
+            "TargetName" = "8:icon.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_3FE5009919284CF7BE2B793E655CB457"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_8B0C33CF2A2ABA0F4E64D66DB4D123B2"
@@ -328,7 +336,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:SpotiAdBlock setup"
         "ProductCode" = "8:{D6E6B131-27C8-4994-A0E2-4D27A70391A3}"
-        "PackageCode" = "8:{92220D1D-0A15-4DA1-B288-5A8180B11D30}"
+        "PackageCode" = "8:{124B4D55-0341-45B3-8277-CBD3D0789EC1}"
         "UpgradeCode" = "8:{0572D98F-795F-4974-AA48-0E358467B5C3}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -459,7 +467,7 @@
             "Target" = "8:_8CF460C636984FB9A44AF1D4B797D6AB"
             "Folder" = "8:_AF1CE9E06C6545808FDCED6EB697A710"
             "WorkingFolder" = "8:_3FE5009919284CF7BE2B793E655CB457"
-            "Icon" = "8:_06B14ABF408F48C6B6C44F1824540B56"
+            "Icon" = "8:_72D83E230B4E4D918BA6879A3823C469"
             "Feature" = "8:"
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_B399377F05D74246B2347E8C500AE77F"
@@ -473,7 +481,7 @@
             "Target" = "8:_8CF460C636984FB9A44AF1D4B797D6AB"
             "Folder" = "8:_40852FB9241740F189210F66A1EF198F"
             "WorkingFolder" = "8:_3FE5009919284CF7BE2B793E655CB457"
-            "Icon" = "8:_06B14ABF408F48C6B6C44F1824540B56"
+            "Icon" = "8:_72D83E230B4E4D918BA6879A3823C469"
             "Feature" = "8:"
             }
         }
